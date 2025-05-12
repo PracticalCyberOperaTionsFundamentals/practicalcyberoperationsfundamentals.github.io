@@ -1,0 +1,19 @@
+# _data/navigation.yml  ───────────────────────────────────
+- title: Overview
+  items:
+    - title: What is this?
+      url: /overview/
+    - title: Sub 1
+      url: /overview/sub1/
+    - title: Sub 2
+      url: /overview/sub2/
+
+- title: Web Exploitation
+  items:
+    - title: Intro
+      url: /webexploitation/
+    - title: Sub 1
+      url: /webexploitation/sub1/
+    - title: Sub 2
+      url: /webexploitation/sub2/
+

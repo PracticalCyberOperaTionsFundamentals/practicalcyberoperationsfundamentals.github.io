@@ -1,0 +1,12 @@
+<!-- _includes/sidebar.html  ────────────────────────────── -->
+<nav>
+  {% for section in site.data.navigation %}
+  <h3>{{ section.title }}</h3>
+  <ul>
+    {% for item in section.items %}
+      <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</nav>
+

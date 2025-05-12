@@ -1,0 +1,14 @@
+<!-- _layouts/default.html  ─────────────────────────────── -->
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ page.title }} · {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ "/assets/css/book.css" | relative_url }}">
+  {{ site.seo_tag }}
+</head>
+<body>
+  <aside class="sidebar">{% include sidebar.html %}</aside>
+  <main class="content">{{ content }}</main>
+</body>
+</html>
+
