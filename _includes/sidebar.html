@@ -1,12 +1,16 @@
-<!-- _includes/sidebar.html  ────────────────────────────── -->
-<nav>
-  {% for section in site.data.navigation %}
-  <h3>{{ section.title }}</h3>
+{% for section in site.data.navigation %}
+<details {% if page.url contains section.base %}open{% endif %}>
+  <summary>{{ section.title }}</summary>
   <ul>
     {% for item in section.items %}
-      <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+      <li>
+        <a href="{{ item.url | relative_url }}"
+           class="{% if page.url == item.url %}active{% endif %}">
+          {{ item.title }}
+        </a>
+      </li>
     {% endfor %}
   </ul>
-  {% endfor %}
-</nav>
+</details>
+{% endfor %}
 

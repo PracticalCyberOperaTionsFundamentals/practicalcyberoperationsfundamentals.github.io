@@ -1,14 +1,38 @@
-<!-- _layouts/default.html  ─────────────────────────────── -->
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <title>{{ page.title }} · {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ "/assets/css/book.css" | relative_url }}">
+
+  <link rel="stylesheet"
+        href="{{ "/assets/css/site.css" | relative_url }}">
+
   {{ site.seo_tag }}
 </head>
 <body>
-  <aside class="sidebar">{% include sidebar.html %}</aside>
-  <main class="content">{{ content }}</main>
+
+  <!-- ── Top navbar ───────────── -->
+  <header class="topbar">
+    <nav>
+      <a href="{{ "/"         | relative_url }}">Home</a>
+      <a href="{{ "/about/"   | relative_url }}">About</a>
+      <a href="{{ "/faq/"     | relative_url }}">FAQ</a>
+      <a href="{{ "/challenges/" | relative_url }}">Challenges</a>
+    </nav>
+  </header>
+
+  <!-- ── Main layout: sidebar + page ── -->
+  <div class="layout">
+    <aside class="sidebar">
+      {% include sidebar.html %}
+    </aside>
+
+    <main class="content">
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+    </main>
+  </div>
+
 </body>
 </html>
 

@@ -1,19 +1,22 @@
-# _data/navigation.yml  ───────────────────────────────────
-- title: Overview
-  items:
-    - title: What is this?
-      url: /overview/
-    - title: Sub 1
-      url: /overview/sub1/
-    - title: Sub 2
-      url: /overview/sub2/
-
-- title: Web Exploitation
+- title: CTF Overview
+  base: /overview/
   items:
     - title: Intro
-      url: /webexploitation/
-    - title: Sub 1
-      url: /webexploitation/sub1/
-    - title: Sub 2
-      url: /webexploitation/sub2/
+      url: /overview/
+
+- title: Web
+  base: /web/
+  items:
+    - title: Client-Side
+      url: /web/client/
+    - title: Server-Side
+      url: /web/server/
+    - title: SQLi
+      url: /web/sqli/
+
+- title: Forensics
+  base: /forensics/
+  items:
+    - title: Basics
+      url: /forensics/
 
