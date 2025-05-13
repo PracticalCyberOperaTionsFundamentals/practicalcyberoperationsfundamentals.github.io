@@ -1,0 +1,20 @@
+# _config.yml  ─────────────────────────────────────────────
+title: "CTF Playbook Demo"
+description: "A HackTricks-style reference in progress."
+theme: minima               # ships with GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Show "pretty" links (/overview/ rather than /overview.html)
+permalink: pretty
+
+# Pick up our sidebar structure
+defaults:
+  - scope:
+      path: ""              # everything
+      type: pages
+    values:
+      layout: default
+nav_data: _data/navigation.yml
+
