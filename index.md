@@ -1,6 +1,5 @@
-<!-- index.md  ───────────────────────────────────────────── -->
 ---
-title: "Welcome"
+title: Welcome
 nav_exclude: true
 ---
 

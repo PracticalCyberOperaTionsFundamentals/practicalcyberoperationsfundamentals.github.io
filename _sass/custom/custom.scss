@@ -1,3 +1,7 @@
-/* wider nav so long titles fit */
-$nav-width: 260px;        /* default is 220px */
+/* let long titles wrap and add a bit more left padding */
+.site-title {
+  white-space: normal;    /* remove “no-wrap” */
+  word-break: break-word; /* allow breaking inside long words */
+  padding-right: .5rem;   /* gives a hair more room */
+}
 
