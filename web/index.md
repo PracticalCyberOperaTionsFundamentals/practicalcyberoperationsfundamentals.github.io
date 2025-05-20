@@ -1,3 +1,8 @@
+---
+title: "Web Overview"
+nav_order: 2
+has_chidren: true
+---
 # Web Exloitation in CTF
 ## What is Web Exploitation
 Like the name implies, Web Exploitation is the practice of discovering vulnerabilites on a website, and then utalizing the vulnerabilities to do what we want, in our case is finding the flag.
