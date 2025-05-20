@@ -1,15 +1,11 @@
 title: "Practical Cyber-Ops Fundamentals"
 description: "Security CTF handbook"
 
-# 👉 turn on the theme (no local clone required)
 remote_theme: just-the-docs/just-the-docs   # :contentReference[oaicite:0]{index=0}
 
-# GitHub Pages already whitelists jekyll-remote-theme,
-# but you still have to list it explicitly:
 plugins:
   - jekyll-remote-theme
 
-# Omit any `theme:` line (e.g. `minima`) – JTD provides its own layout
-baseurl: ""          # because your repo is a *user/org* site (`*.github.io`)
-color_scheme: dark   # built-in light|dark|dark-dimmed
+baseurl: ""          
+color_scheme: dark  
 

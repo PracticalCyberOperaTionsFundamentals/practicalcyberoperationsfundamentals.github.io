@@ -1,5 +1,6 @@
 ---
 title: Welcome
+permalink: / 
 nav_exclude: true
 ---
 
