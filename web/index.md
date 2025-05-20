@@ -1,5 +1,5 @@
 ---
-title: "Web Overview"
+title: "Web"
 nav_order: 2
 has_chidren: true
 ---
