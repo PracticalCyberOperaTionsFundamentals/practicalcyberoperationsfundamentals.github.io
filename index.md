@@ -1,6 +1,7 @@
 <!-- index.md  ───────────────────────────────────────────── -->
 ---
 title: "Welcome"
+nav_exclude: true
 ---
 
 # CTF Playbook (Preview)
