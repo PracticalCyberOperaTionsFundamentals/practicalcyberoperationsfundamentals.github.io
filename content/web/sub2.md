@@ -1,6 +1,6 @@
 ---
 title: Browsers, proxies, and scripting
-parent: Web Overview
+parent: Web
 nav_order: 2
 ---
 # Interacting with websites
