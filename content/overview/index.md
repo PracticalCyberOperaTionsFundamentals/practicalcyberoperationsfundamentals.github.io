@@ -5,9 +5,19 @@ has_children: true       # ← tells JTD to expect child pages
 #permalink: /overview/    # (nice clean URL, optional)
 ---
 
-#Capture the Flag (CTF) Overview
+# Capture the Flag (CTF) Overview
 
 ## What is it
-Capture the flag is a gamified hacking competition format that allows users to get hands on offensive cyber security experience!
-## Alright!
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet aliquet tortor, nec fermentum nunc. Vivamus pulvinar scelerisque nunc. Fusce ligula tortor, imperdiet quis mauris sed, vulputate volutpat tortor. Proin eu gravida dui. Nunc pharetra magna ut finibus vestibulum. Cras nec neque justo. In sagittis felis sit amet eros ultricies fringilla. Nullam ac justo semper, egestas purus in, volutpat urna. Donec imperdiet fringilla diam eu suscipit. Quisque sit amet ligula tortor. Mauris eu sollicitudin lectus, sed accumsan mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed iaculis ipsum, vitae pharetra tellus.
+Capture the flag is a gamified hacking competition format that allows users to get hands on offensive cyber security experience. Participants can practice real world techniques in many different areas of Cyber Security. 
+
+## Categories
+### Web
+### Forensics
+### Rev
+### Pwn
+### Cryptography
+
+
+# How to use this book
+Throughout this book, we list a number of fundamental concepts that should guide your intuition when facing the problems and challenges throughout the book. We also provide a number of real world jobs that implement the skills shown throughout the chapter, and this can help guide your focus depending on your career goals. That being said, we do recommend you read through each of the chapters to gain some experience in each category, as you may end up enjoying challenges and concepts you were not expecting.
+

@@ -1,2 +1,4 @@
 Dockerfile
 build.sh
+content/.obsidian/
+_site/
