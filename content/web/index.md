@@ -22,3 +22,5 @@ In modern web apps (APIs, microservices, OAuth), assumptions about internal trus
 Many flaws arise from poor session tracking, weak or misused JWTs, insecure cookies, or assuming roles based on client-side flags (e.g., `isAdmin=true`).
 ## Overview
 In this chapter, we will focus on the foundation of what websites are and 
+
+
