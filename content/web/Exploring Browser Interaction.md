@@ -26,12 +26,25 @@ Below is an example of interacting with the form variables to change the client-
 # Network
 
 ## HTTP/HTTPS
+HTTP (Hypertext Transfer Protocol) is a protocol used to communicate and transfer data over the internet. It is a stateless, protocol built on top of either TCP/IP or QUIC/IP depending on the version, and it follows a request-response model where the client sends a request to the server, and the server responds with content like HTML, images, or data.
 
-### REST and SOAP APIS
+HTTPS (HTTP Secure) adds a layer of encryption using TLS (Transport Layer Security). More on this later.
 
-### Methods
+### HTTP Methods
+When a web browser or other client communicates with a server, it uses specific HTTP methods to indicate what kind of action it wants to perform. These methods form the foundation of how data is requested, submitted, or modified on the web. Using the browser developer tools, we can actually see and edit the types of requests and the data within that we make to the website by opening the context menu (right clicking) of the request and selecting "Edit and Resend". We will make extensive use of this feature and Burps enhanced tool, Repeater, throughout the rest of this unit. 
+![Http_Methods]({{site.baseurl}}/content/assets/images/HTTP_Methods.png)
 
 ### Headers
+HTTP headers are key-value pairs that are sent in both HTTP requests and responses. They provide metadata about the communication between the client and the server, such as what type of content is being sent, how the browser should behave, and how authentication is handled.
+
+They are important for:
+- Controlling how the browser and server interact
+- Managing sessions, cookies, and authentication
+- Defining how data is formatted and processed
+- Enabling features like caching, compression, or redirects
+- Setting a Content Security Policy (CSP)
+
+## REST and SOAP APIS
 
 ## JSON
 
