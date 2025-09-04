@@ -3,6 +3,7 @@ title: CSRF
 nav_order: 3
 parent: Web
 has_chidren: true
+permalink: /web/csrf/
 ---
 
 # What is CSRF

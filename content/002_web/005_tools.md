@@ -2,6 +2,7 @@
 title: Browsers, proxies, and scripting
 parent: Web
 nav_order: 2
+permalink: /web/tools/
 ---
 # Interacting with websites
 When interacting with websites, browsers are just one tool available to use. 

@@ -1,7 +1,8 @@
 ---
-title: "Crypto"
+title: "Cryptography"
 nav_order: 6
 has_chidren: true
+permalink: /cryptography/
 ---
 # What is Cryptography
 

@@ -2,6 +2,7 @@
 title: "Web"
 nav_order: 2
 has_chidren: true
+permalink: /web/
 ---
 # Web Exploitation in CTF
 ## What is Web Exploitation

@@ -2,6 +2,7 @@
 title: Exploring Browser Interaction
 parent: What is a Website?
 nav_order: 2
+permalink: /web/website/browser
 ---
 # Browser interaction
 Browsers are complex tools that, at its core, performs a simple task, making requests to web servers. These requests almost always are made using HTTP/HTTPS. The example below demonstrates the Firefox developer tools available to us to analyze the request made to a simple website. You can open the Firefox developer tools by right clicking and selecting "inspect(Q)". We will analyze the the requests and response in the following sections, introducing different technologies as we do so.
