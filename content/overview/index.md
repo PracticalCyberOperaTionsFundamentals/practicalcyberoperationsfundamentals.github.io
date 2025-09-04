@@ -2,7 +2,7 @@
 title: CTF Overview      # ← label in the sidebar
 nav_order: 1             # ← 1st section in the whole book
 has_children: true       # ← tells JTD to expect child pages
-#permalink: /overview/    # (nice clean URL, optional)
+permalink: /overview/    # (nice clean URL, optional)
 ---
 
 # Capture the Flag (CTF) Overview

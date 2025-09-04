@@ -2,6 +2,7 @@
 title: Setup
 nav_order: 1
 parent: CTF Overview
+permalink: /setup/
 ---
 
 # Setting Up Your Computer
