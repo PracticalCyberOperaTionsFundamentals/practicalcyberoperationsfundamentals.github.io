@@ -1,7 +1,7 @@
 ---
 title: Browsers, proxies, and scripting
 parent: Web
-nav_order: 2
+nav_order: 3
 permalink: /web/tools/
 ---
 # Interacting with websites
