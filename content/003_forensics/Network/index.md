@@ -1,0 +1,7 @@
+---
+title: Network Analysis
+parent: Forensics
+nav_order: 4
+has_children: true
+permalink: /forensics/Network
+---
