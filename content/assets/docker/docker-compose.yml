@@ -7,3 +7,5 @@ services:
     container_name: hello
     ports:
       - "50001:5000"
+    environment:
+      - FLAG=fsuCTF{d0Cker_U5ER}
