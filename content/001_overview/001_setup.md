@@ -69,6 +69,20 @@ before trying on the CTF server. We aim to imitate this functionality.
 
 Once again, we trust that you can install Docker.
 
+To test whether you have installed it correctly, we encourage you to download
+[`hello.zip`](/content/assets/docker/) (within your VM) and run the included
+`docker-compose.yml` to have a fun message! You should be able to connect with
+`nc`:
+
+```
+nc 127.0.0.1 50001
+```
+
+You can modify the message using the `FLAG` variable in the `Dockerfile`.
+For other problems, these environment variables may be useful for educators
+using secret flags for homework or students looking to tinker with settings!
+
+
 ## Notes
 
 - Make sure you are doing this on **your** computer. Installing and running
